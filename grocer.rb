@@ -10,7 +10,6 @@ def consolidate_cart(cart)
   list = {}
   cart.length.times { |i|
     kee = cart[i].keys*""
-    binding.pry
     val = cart[i].values[0]
     val[:count] = cart.count(cart[i])
     list[kee] = val 
