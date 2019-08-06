@@ -1,10 +1,8 @@
 
 require "pry"
-<<<<<<< HEAD
+
 #list = [{"AVOCADO" => {:price => 3.00, :clearance => true}}, {"KALE" => {:price => 3.00, :clearance => false}}]
-=======
-#list = []
->>>>>>> 2f105c60d79d5dc3b1a7963e442f02f4c153ecf4
+
 
 
 def consolidate_cart(cart)
@@ -17,10 +15,6 @@ def consolidate_cart(cart)
     val[:count] = cart.count(cart[i])
     list[kee] = val 
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 2f105c60d79d5dc3b1a7963e442f02f4c153ecf4
   return list
 end
 
